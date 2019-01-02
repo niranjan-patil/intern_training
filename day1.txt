@@ -1,0 +1,18 @@
+Why Use a Version Control System?
+	Collaboration
+	Storing Versions (Properly)
+	Restoring Previous Versions
+	Backup
+
+
+git init
+git status
+git commit -m ""
+git show <commit id>
+git add abc.txt
+git log
+git diff
+git checkout
+git reset 
+
+
