@@ -5,7 +5,5 @@ dishname = gets.chomp
 puts "Enter the price:"
 dishprice = gets.to_i
 Hotels.each do |key,value|
-	unless Hotels[key][dishname] == nil
-		puts key if(Hotels[key][dishname]<=dishprice)
-	end
+	puts key if(Hotels[key][dishname]<=dishprice) && Hotels[key][dishname]
 end
