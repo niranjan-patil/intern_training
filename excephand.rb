@@ -1,3 +1,5 @@
+#chmod u=rwx,g=rx,o=r myfile
+#command to change permissions of file
 cnt=0
 begin
 	cnt=cnt+1
@@ -13,6 +15,6 @@ begin
 	end
 rescue StandardError => e
 	puts e.message
-retry if(cnt<4)
+	retry if(cnt<4)
 	puts "U dumb or what?"
 end
