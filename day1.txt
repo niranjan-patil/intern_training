@@ -4,7 +4,6 @@ Why Use a Version Control System?
 	Restoring Previous Versions
 	Backup
 
-
 git init
 git status
 git commit -m ""
@@ -14,5 +13,6 @@ git log
 git diff
 git checkout
 git reset 
+
 
 
