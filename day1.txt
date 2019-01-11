@@ -3,7 +3,7 @@ Why Use a Version Control System?
 	Storing Versions (Properly)
 	Restoring Previous Versions
 	Backup
-
+	don't
 git init
 git status
 git commit -m ""
